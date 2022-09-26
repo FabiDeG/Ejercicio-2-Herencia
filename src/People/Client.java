@@ -39,4 +39,7 @@ public class Client {
 		this.IDC = IDC;
 	
 	}
+	
+	
+	
 }
