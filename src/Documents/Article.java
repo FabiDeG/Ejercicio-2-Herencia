@@ -12,4 +12,13 @@ public class Article extends Doc{
 		this.setStatus(_Status);
 	}
 	
+	private String Referee;
+	
+	public String getReferee() {
+		return Referee;
+	}
+	
+	public void setReferee(String Referee) {
+		this.Referee = Referee;
+	}
 }
