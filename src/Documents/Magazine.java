@@ -13,7 +13,7 @@ public class Magazine extends Doc{
 		
 	private int NumberR;
 	
-	public double getNumberR() {
+	public int getNumberR() {
 		return NumberR;
 	}
 	
