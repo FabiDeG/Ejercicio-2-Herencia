@@ -22,5 +22,30 @@ public class Books extends Doc {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public void setAuthor(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setPublisher(int nextInt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setTopic(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setCopy(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setStatus(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
