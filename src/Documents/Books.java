@@ -47,5 +47,10 @@ public class Books extends Doc {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public static boolean contains(String id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 }

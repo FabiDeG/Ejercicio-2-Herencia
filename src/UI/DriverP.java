@@ -33,7 +33,7 @@ public class DriverP {
             opcion = "" + in.nextInt();
             if (opcion.equals("1")) {
             	Scanner in1 = new Scanner(System.in);
-            	Books[] misLibros = new Books[7];
+            	Books[] misLibros = new Books[1];
             	for (int i = 0; i < 1; i++) {
                 	misLibros[i] = new Books(null, args, args, args, args, args, args);
         			System.out.println("ID del libro: " + (i + 1));
@@ -50,11 +50,25 @@ public class DriverP {
         			misLibros[i].setCopy(in1.nextLine());
         			System.out.println("Estado de los libros: " + (i + 1));
         			misLibros[i].setStatus(in1.nextLine());
+        			MostrarMenu();
+            	} }if (opcion.equals("2")) {
+            		for (int i = 0; i < 2; i++) {
+            			System.out.println("ID del libro: " + (i + 1));
+            			String id = in.nextLine();
+            			boolean existe = Books.contains(id);
+            			if (existe) {
+            				System.out.println(Books.contains(id));
+            			} else {
+            				System.out.println("El libro no existe");
+            			}
+            		}
+            	}if (opcion.equals("3")) {
+            		
             	}
             }
         }
 	}
-	
-}
+
+
 
 
