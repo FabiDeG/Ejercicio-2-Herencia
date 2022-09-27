@@ -63,7 +63,20 @@ public class DriverP {
             			}
             		}
             	}if (opcion.equals("3")) {
-            		
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}if (opcion.equals("4")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}if (opcion.equals("5")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}if (opcion.equals("6")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}
+            	if (opcion.equals("7")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}if (opcion.equals("8")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
+            	}if (opcion.equals("9")) {
+            		System.out.println("Perdón, tengo que estudiar física :´=");
             	}
             }
         }
