@@ -16,8 +16,8 @@ public class DriverP {
         System.out.println("3. Cantidad de documentos por materia");
         System.out.println("4. Realizar un préstamo");
         System.out.println("5. Realizar una devolución");
-        System.out.println("6. Cantidad de documentos que se ha prestado a un cliente según su tipo");
-        System.out.println("7. Cantidad de revistas de una materia en la biblioteca");
+        System.out.println("6. Cantidad de documentos que se ha prestado a un cliente según su tema");
+        System.out.println("7. Cantidad de revistas de un determinado tema en la biblioteca");
         System.out.println("8. Determinar stock de libros o artículos");
         System.out.println("9. Crear un usuario de la biblioteca nuevo");
         System.out.println("10. Terminar el programa");
@@ -25,40 +25,36 @@ public class DriverP {
     }
 	
 	public static void main(String[] args) {
-        Scanner escaner = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
         String opcion = "";
-        Books Libro = NewBook();
-        Magazine revista = NewMagazine();
-        Article articulo = NewArticle();
-        Client cliente = NewClient();
         
         while(!opcion.equals("10")) {
             MostrarMenu();
-            opcion = "" + escaner.nextInt();
-            
+            opcion = "" + in.nextInt();
+            if (opcion.equals("1")) {
+            	Scanner in1 = new Scanner(System.in);
+            	Books[] misLibros = new Books[7];
+            	for (int i = 0; i < 1; i++) {
+                	misLibros[i] = new Books(null, args, args, args, args, args, args);
+        			System.out.println("ID del libro: " + (i + 1));
+					misLibros[i].setID(in1.nextInt());
+        			System.out.println("Título del libro: " + (i + 1));
+        			misLibros[i].setTitle(in1.nextLine());
+        			System.out.println("El autor del libro: " + (i + 1));
+        			misLibros[i].setAuthor(in1.nextLine());
+        			System.out.println("La editorial del libro: " + (i + 1));
+					misLibros[i].setPublisher(in1.nextInt());
+        			System.out.println("Tema: " + (i + 1));
+        			misLibros[i].setTopic(in1.nextLine());
+        			System.out.println("El total de ejemplares: " + (i + 1));
+        			misLibros[i].setCopy(in1.nextLine());
+        			System.out.println("Estado de los libros: " + (i + 1));
+        			misLibros[i].setStatus(in1.nextLine());
+            	}
+            }
         }
-        
 	}
 	
-	public static Books NewBook() {
-        Books Libro = new Books(null, null, null, null, null, null, null);
-        return Libro;
-    }
-
-    public static Magazine NewMagazine() {
-    	Magazine revista = new Magazine(null, null, null, null, null);
-        return revista;
-    }
-    
-    public static Article NewArticle() {
-    	Article articulo = new Article(null, null, null, null, null, null);
-        return articulo;
-    }
-
-    public static Client NewClient() {
-    	Client cliente = new Client();
-        return cliente;
-    }
 }
 
 

@@ -17,8 +17,8 @@ public class Magazine extends Doc{
 		return NumberR;
 	}
 	
-	public void setNumberR(int NumberR) {
-		this.NumberR = NumberR;
+	public void setNumberR(int numberR) {
+		this.NumberR = numberR;
 	}
 	
 	private String DateFormat;
@@ -27,7 +27,7 @@ public class Magazine extends Doc{
 		return DateFormat;
 	}
 	
-	public void setDateFormat(String DateFormat) {
-		this.DateFormat = DateFormat;
+	public void setDateFormat(String dateFormat) {
+		this.DateFormat = dateFormat;
 	}
 }

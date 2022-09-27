@@ -12,7 +12,15 @@ public class Books extends Doc {
 		this.setCopy(_Copy);
 		this.setStatus(_Status);
 	}
-	
 
+	public void setID(int nextInt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setTitle(String nextLine) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

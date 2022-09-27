@@ -18,7 +18,7 @@ public class Article extends Doc{
 		return Referee;
 	}
 	
-	public void setReferee(String Referee) {
-		this.Referee = Referee;
+	public void setReferee(String referee) {
+		this.Referee = referee;
 	}
 }

@@ -20,8 +20,8 @@ public abstract class Doc {
 		return ID;
 	}
 	
-	public void setID(int[] ID) {
-		this.ID = ID;
+	public void setID(int[] id) {
+		this.ID = id;
 	}
 	
 	public void SortingAlgorithm1(String[] _Title) {
@@ -32,8 +32,8 @@ public abstract class Doc {
 		return Title;
 	}
 	
-	public void setTitle(String[] Title) {
-		this.Title = Title;
+	public void setTitle(String[] title) {
+		this.Title = title;
 	}
 	
 	public void SortingAlgorithm2(String[] _Author) {
@@ -44,8 +44,8 @@ public abstract class Doc {
 		return Author;
 	}
 	
-	public void setAuthor(String[] Author) {
-		this.Author = Author;
+	public void setAuthor(String[] author) {
+		this.Author = author;
 	}
 	
 	public void SortingAlgorithm3(String[] _Publisher) {
@@ -56,8 +56,8 @@ public abstract class Doc {
 		return Publisher;
 	}
 	
-	public void setPublisher(String[] Publisher) {
-		this.Publisher = Publisher;
+	public void setPublisher(String[] publisher) {
+		this.Publisher =publisher;
 	}
 	
 	public void SortingAlgorithm4(String[] _Topic) {
@@ -68,8 +68,8 @@ public abstract class Doc {
 		return Topic;
 	}
 	
-	public void setTopic(String[] Topic) {
-		this.Topic = Topic;
+	public void setTopic(String[] topic) {
+		this.Topic = topic;
 	}
 	
 	public void SortingAlgorithm5(String[] _Copy) {
@@ -80,8 +80,8 @@ public abstract class Doc {
 		return Copy;
 	}
 	
-	public void setCopy(String[] Copy) {
-		this.Copy = Copy;
+	public void setCopy(String[] copy) {
+		this.Copy = copy;
 	}
 	
 	public void SortingAlgorithm6(String[] _Status) {
@@ -92,8 +92,8 @@ public abstract class Doc {
 		return Status;
 	}
 	
-	public void setStatus(String[] Status) {
-		this.Status = Status;
+	public void setStatus(String[] status) {
+		this.Status = status;
 	}
 	
 }
